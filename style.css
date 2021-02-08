@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+.about-me{
+    background: url(./img_kj_pr1/header-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    margin-top: 30vh;
+}
+.right h1{
+    color: palevioletred;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.right p{
+    padding-top: 15px;
+    font-size: 0px 25px;
+}
+.left{
+    align-items: center;
+}
+.left img{
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 400px;
+    transition: 0.3s;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 160px ;
+    border-radius: 50px;
+    background-color: rgb(212, 69, 93);
+    transition: 0.3ms;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.btn:hover{
+    background-color: teal;
+}
+
+/* biography start here */
+
+.bio-graphy{
+    padding: 5px;
+    background-image: url(./img_kj_pr1/biography-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bio-right img{
+    margin-left: 250px;
+    margin-top: 30px;
+    width: 400px;
+    transition: 0.3s;
+}
+.bio-left{
+    padding: 100px;
+}
+.bio-left p{
+    padding: 50px 0px;
+}
+.bio-left .bio-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(212, 69, 93);
+    transition: 0.3ms;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/* latest work start here */
+.latest-work{
+    background-image: url(./img_kj_pr1/latest-work-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 150px;
+}
+.latest-work img{
+    width: 300px;
+    margin: auto;
+
+}
+.latest-work{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* client section */
+.client-section{
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    
+}
+.client-section .client{
+    padding: 50px;
+}
+.client-section .client-name{
+    text-transform: capitalize;
+    font-weight: bold ;
+    padding-bottom: 15px;
+}
+.client-section .shadow{
+    padding-bottom: 30px;
+    font-weight: 33px;
+}
+.client-section .dummy{
+    padding: 0px 400px;
+    line-break: 3px;
+}
+
+/* contact start here */
+.contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(201, 54, 78);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.contact a{
+    text-decoration: none;
+    color: white ;
+    font-size: 20px;
+    padding-top: 40px;
+
+}
+.footer p{
+    padding: 50px;
+}
